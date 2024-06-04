@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class ShootMechanics : MonoBehaviour
+public class Shooter : MonoBehaviour
 {
     [SerializeField] private Transform _shootingTarget;
     [SerializeField] private float _speed;
